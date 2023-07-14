@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-table{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    row-gap: 30px;
+    height: 90vh;
+
+    
+    
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 50%;
+    gap: 20px;
+    background-color: #0ab3f0;
+    border-radius: 10px;
+    padding: 20px;
+   
+
+
+}
+.info div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.info .name{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+
+
+
+}
+ .info .select{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+ }
+ .info .number{
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+
+ }
+input{
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+}
+select{
+    border: none;
+    border-radius: 5px;
+}
+button{
+    width: 30%;
+    margin: auto;
+    padding: 10px 15px;
+    
+}
+label{
+    
+}
+

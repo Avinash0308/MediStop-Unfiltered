@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+
+</style>
+</head>
+<body>
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+    <h1 id="name"></h1>
+  <h3 > Age: <span id="age"></span>  (<span id="gender"></span>)</h3>
+    <h3>Address : <span  id="address"></span> </h3>
+    <h3>Mobile No. : <span  id="mobile"></span> </h3>
+    <h3>Email : <span  id="email"></span> </h3>
+    <p> <h3>Medical History of Patient </h3></p>
+    <div class="fakeimg" style="height:60px;"><b>Sugar-Lever:</b> <span id="sugar"></span></div><br>
+    <div class="fakeimg" style="height:60px;"><b>Blood-Group:</b> <span id="Blood-group"></span>   </div><br>
+    <div class="fakeimg" style="height:60px;"><b>Blood-Pressure:</b> <span id="BP"></span> </div><br>
+   <div class="fakeimg" style="height:60px;"><b>Oxygen-Level:</b> <span id="oxygen-level"></span> </div><br>
+   <div class="fakeimg" style="height:60px;"><b>Height:</b> <span id="height"></span> </div><br>
+   <div class="fakeimg" style="height:60px;"><b>Weight:</b> <span id="weight"></span> </div><br>
+   
+   <p><h3> Disease as per the Report </h3></p>
+   <div class="fakeimg" style="height:200px;">
+  <ul style="background-color: aquamarine;" id="list">
+    <li> Severe Fever </li>
+    <li> Jaundice </li>
+    <li> Cough  </li>
+    <li>Malaria</li>
+  </ul></div>
+
+  </div>
+
+  <!--prescribed medicine -->
+  <div class="main">
+    <h1>Prescribed medicine </h1>
+    
+    <div class="fakeimg" style="height:220px;">
+      <div class="table-responsive-sm">
+        <table class="table">
+          <thead class="table-success">
+            <tr>
+              <th scope="col">Medicine Name</th>
+              <th scope="col">Purpose</th>
+              <th scope="col">Dosage</th>
+              <th scope="col">Route</th>
+              <th scope="col">Frequency</th>
+            </tr>
+          </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Paracetomal </th>
+            <td>For Fever </td>
+            <td>1 tablet</td>
+            <td>Oral</td>
+            <td>Evey 4 hour</td>
+          </tr>
+          <tr>
+            <th scope="row">Vitamin C </th>
+            <td>Immune system </td>
+            <td>1 tablet</td>
+            <td>Oral</td>
+            <td>Once a day</td>
+          </tr>
+          <tr>
+            <th scope="row">Vitamin D </th>
+            <td>Immune system </td>
+            <td>1 tablet</td>
+            <td>Oral</td>
+            <td>Once a day</td>
+          </tr>
+        </tbody>
+        </table>
+      </div> 
+    </div>
+    <br>
+    <!--Deficiency and allergy -->
+    <h1> Deficiency and allergy</h1>
+    <div class="fakeimg" style="height:220px;">
+      <div class="table-responsive-sm">
+        <table class="table">
+          <thead class="table-success">
+            <tr>
+              <th scope="col">Deficiency</th>
+              <th scope="col">Allergy</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Iron </th>
+              <td>Cold Drink </td>
+            </tr>
+            <tr>
+              <th scope="row">Vitamin C </th>
+              <td>Sweet things</td>
+            </tr>
+            <tr>
+              <th scope="row">Vitamin D </th>
+              <td>Junk Food  </td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+   <h1> Best Hospitals and Estimated costs </h1>
+    <div class="fakeimg" style="height:220px;">
+      <ol id="hospitals"> 
+        <li> Vindhya Hospital Rewa (2 to 4 lakh Rs)</li>
+        <li> Birla Hospital Satna (2 to 4 lakh Rs)</li>
+        <li> Narayan Hospital Katni (2 to 4 lakh Rs)</li>
+        <li> Max Hospital Jabalpur  (2 to 4 lakh Rs)</li>
+        <li> Vindhya Hospital Rewa (2 to 4 lakh Rs)</li>
+        <li> Vindhya Hospital Rewa (2 to 4 lakh Rs)</li>
+      </ol>
+    </div>
+    <br>
+    <h2>Schemes For You </h2>
+    <div class="fakeimg" style="height:190px;">
+      <ol id="schemes"> 
+        <li> Ayushman Yojana</li>
+        <li>Central Health Scheme</li>
+        <li> Sambal Yojana </li>
+        <li>Central Yojana </li>
+      </ol>
+      <h4> **For more information visit the schemes page</h4>
+  </div>
+</div>
+
+
+<script src="index.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
